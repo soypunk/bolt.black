@@ -4,6 +4,7 @@
 <form class="black-80 sans-serif outline pt2 pb3 ph3" accept-charset="UTF-8" action="{{ .Get "action" }}" method="POST" role="form">
 	<input type="hidden" name="_subject" value="Bolt Black Contact Form Submission" />
 	<input type="hidden" name="_format" value="plain" />
+	<input type="hidden" name="_next" value="https://bolt.black/" />
 	<input type="text" name="_gotcha" style="display:none" />
     <label class="{{ $.Scratch.Get "labelClasses" }}"  for="name">Your Name</label>
     <input type="text" id="name" name="name" class="{{ $.Scratch.Get "inputClasses" }}"  required placeholder=" "  aria-labelledby="name"/>
