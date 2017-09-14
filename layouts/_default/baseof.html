@@ -3,6 +3,7 @@
 	<head>
 		<meta charset="utf-8">
 		<title>{{ block "title" . }}{{ .Site.Title }} {{ with .Title }} | {{ . }}{{ end }}{{ end }}</title>
+		<meta name=“viewport” content=“width=device-width, initial-scale=1”>
 		<link href='{{ "css/base.css" | absURL }}' rel='stylesheet' type="text/css">
 		<script src="//use.fontawesome.com/1050a3a09e.js"></script>
 		{{ if eq (getenv "HUGO_ENV") "production" | or (eq .Site.Params.env "production")  }}
