@@ -1,0 +1,16 @@
+					<div class="mb2">
+						<ul class="list pl0 lh-copy measure-narrow ttu">
+							<li><a href="/about/" class="db link dark-blue hover-black"><i class="fa fa-user fa-fw" aria-hidden="true"></i> About</a></li>
+							<li><a href="/archives/" class="db link dark-blue hover-black"><i class="fa fa-archive fa-fw" aria-hidden="true"></i> Archives</a></li>
+							<!-- <li><a href="" class="db link dark-blue hover-black">Recaps</a></li> -->
+							<li><a href="/subscribe/" class="db link dark-blue hover-black" title="RSS feed info"><i class="fa fa-rss fa-fw" aria-hidden="true"></i> Subscribe</a></li>
+							<li><a href="/contact/" class="db link dark-blue hover-black"><i class="fa fa-envelope fa-fw" aria-hidden="true"></i> Contact</a></li>							
+							{{ with .Site.Params.twitter }}
+							<li>
+								<a href="{{ . }}" class="db link dark-blue hover-black" title="Twitter link">
+							    <i class="fa fa-twitter fa-fw" aria-hidden="true"></i> Twitter</a>
+							  	</a>
+							</li>
+							{{ end }}
+						</ul>
+					</div>

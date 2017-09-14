@@ -1,0 +1,11 @@
+{{ define "title" }}
+  {{ .Title }} – {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+<article class="mb5">
+	<h3 class="mt2 pt1 mb4 lh-title roboto">{{ .Title }}</h3>
+	<div class="measure-wide nested-copy-line-height nested-links nested-img lh-copy serif">
+	  {{ .Content }}
+	</div>
+</article>
+{{ end }}

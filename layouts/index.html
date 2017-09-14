@@ -1,0 +1,13 @@
+{{ define "main" }}
+
+{{ range .Data.Pages.GroupByDate "Monday, 2 January 2006" }}
+	{{ $page := index .Pages 0 }}{{/* Each group has at least 1 page */}}
+	{{ if ge $page.Date.Unix (now.AddDate 0 0 -7) }}
+    <h2 class="f5 ttu lh-title">{{ .Key }}</h2>
+	{{ range .Pages }}
+		{{ .Render "li" }}
+	{{ end }}
+  {{ end }}
+{{ end }}
+
+{{ end }}

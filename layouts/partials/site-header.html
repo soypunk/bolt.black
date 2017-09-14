@@ -1,0 +1,12 @@
+<header class="db pv3">
+	<h1 class="mb0 ttu tracked black">
+		<a href="{{ .Site.BaseURL }}" class="ttu link dark-blue tracked-tight no-underline underline-hover">
+		  Bolt <i class="silver fa fa-bolt" aria-hidden="true"></i> <span class="black">Black</span>
+		</a>
+	</h1>
+	{{ with .Site.Params.description }}
+	<p class="f5 silver serif lh-copy pa0 ma0">
+		{{ . }}
+	</p>
+	{{ end }}
+</header>

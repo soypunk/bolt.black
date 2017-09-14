@@ -1,0 +1,29 @@
+{{ define "title" }}
+{{ .Title }} – {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+	{{ with .Site.GetPage "page" "archives" "links.md" }}
+	<article class="mb4">
+	<h3 class="mt2 pt1 mb4 lh-title roboto">{{ .Title }}</h3>
+	<div class="measure-wide nested-copy-line-height nested-links nested-img lh-copy serif">
+	  {{ .Content }}
+	</div>
+	</article>
+	{{ end }}
+	
+	{{ $mainSections := .Site.Params.linkSections | default (slice "links") }}
+	{{ range $index, $value := (where .Site.RegularPages "Section" "in" $mainSections).GroupByDate "January 2006" }}
+    <div class="mb3">
+	<h2 class="f5 mb3 ttu lh-title">{{ .Key }}</h2>	
+		{{ range .Pages }}
+		<article class="mw6 mb2 left ph3-ns">
+			<header class="cf ph2-ns">
+				<time class="db fl w-100 w-30-ns ma0 f6 gray serif" datetime="{{ .Date.Format "2006-01-02T15:04:05-0700" }}" pubdate>{{ .Date.Format "January 2, 2006"}}</time>			
+				<h3 class="db fl w-100 w-70-ns f6 ma0 lh-title roboto"><a href="{{ .Permalink }}" class="link black hover-dark-blue underline-hover" rel="bookmark">{{ .Title|title }}</a></h3>				
+			</header>
+		</article>
+		{{ end }}
+	</div>	
+	{{ end }}
+</article>
+{{ end }}

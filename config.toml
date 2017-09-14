@@ -1,0 +1,29 @@
+baseURL = "https://bolt.black/"
+languageCode = "en-us"
+title = "Bolt Black"
+metaDataFormat = "yaml"
+googleAnalytics = ""
+enableRobotsTXT = true
+DefaultContentLanguage = "en"
+
+[sitemap]
+	changefreq = "monthly"
+	priority = 0.5
+	filename = "sitemap.xml"
+
+[author]
+    name = "Shawn Medero"
+
+[permalinks]
+	stories = "/stories/:year/:month/:day/:slug"
+	links = "/links/:year/:month/:day/:slug"
+
+[params]
+	env = "TEST"
+	description = "A column covering the Tampa Bay Lightning"
+	twitter = "https://twitter.com/BoltBlackSite"
+	mainSections = "stories, recaps, players, links"
+
+[taxonomies]
+	tag = "tags"
+	category = "categories"
