@@ -11,7 +11,7 @@
 	</article>
 	{{ end }}
 	
-	{{ $mainSections := .Site.Params.mainSections | default (slice "stories") }}
+	{{ $mainSections := .Site.Params.sliceSections | default (slice "stories") }}
 	{{ range $index, $value := (where .Site.RegularPages "Section" "in" $mainSections).GroupByDate "January 2006" }}
     <div class="mb3">
 	<h2 class="f5 mb3 ttu lh-title">{{ .Key }}</h2>	
