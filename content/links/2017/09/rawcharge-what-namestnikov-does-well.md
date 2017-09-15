@@ -10,9 +10,9 @@ Word out of camp this week is that Namestnikov is back to playing on a line with
 
 It is worth revisiting a piece on Namestnikov from Raw Charge this summer written by contributor Alan Wells:
 
-> Vladislav Namestnikov has settled into a role as the versatile do-anything forward for the Tampa Bay Lightning. Drafted in the first round 27th overall in 2011, Namestnikov has been a full-time player for the Lightning for the last two seasons. He’s played everywhere from the first line to fourth line and been successful in every role the coaching staff has assigned him. Namestnikov is a unique player and this article will attempt to showcase why his particular set of skills is valuable to the Lightning in ways that might not be immediately obvious.
-> ...
-> ...Namestnikov is an excellent driver of both shot share and expected goal share. The Lightning garner a greater share of the shots and expected goals when he is on the ice than when he is not.
+> Vladislav Namestnikov has settled into a role as the versatile do-anything forward for the Tampa Bay Lightning. Drafted in the first round 27th overall in 2011, Namestnikov has been a full-time player for the Lightning for the last two seasons. He’s played everywhere from the first line to fourth line and been successful in every role the coaching staff has assigned him. Namestnikov is a unique player and this article will attempt to showcase why his particular set of skills is valuable to the Lightning in ways that might not be immediately obvious.  
+> ...  
+> Namestnikov is an excellent driver of both shot share and expected goal share. The Lightning garner a greater share of the shots and expected goals when he is on the ice than when he is not.
 
 It is true that Namestnikov's official production stats have not quite hit his original ceiling prediction of a 2nd line forward. That said, if you've watched Namestnikov's shifts closely you may have noticed that he is creating chances.
 
