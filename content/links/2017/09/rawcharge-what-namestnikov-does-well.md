@@ -16,4 +16,4 @@ It is worth revisiting a piece on Namestnikov from Raw Charge this summer writte
 
 It is true that Namestnikov's official production stats have not quite hit his original ceiling prediction of a 2nd line forward. That said, if you've watched Namestnikov's shifts closely you may have noticed that he is creating chances.
 
-Alan piece breaks down exactly how Namestnikov contributes to the offense through a number of stats and game videos. It is a good list of things to keep an eye on to see if Namestnikov will be able to stick with the top line.
+Alan's piece breaks down exactly how Namestnikov contributes to the offense through a number of stats and game videos. It is a good list of things to keep an eye on to see if Namestnikov will be able to stick with the top line.
