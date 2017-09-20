@@ -1,0 +1,63 @@
+{{ define "title" }}
+Recap: {{ .Title }} – {{ .Site.Title }}
+{{ end }}
+{{ define "main" }}
+	<article class="mb5">
+		<h3 class="mb0 lh-title roboto">Recap: <a href="{{ .Permalink }}" class="link black hover-dark-blue underline-hover" rel="bookmark">{{ .Title|title }}</a></h3>
+		<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" class="mt0 f6 gray serif">{{ .Date.Format "January 2, 2006" }}</time>
+		<div class="measure-wide">
+			<table class="w-100 mt3 collapse ba br2 b--black-10 pv2 ph3">
+				<thead class="bb bw3 b--black">
+					<tr class="pv2 ph3">
+						<th colspan="2" class=""></th>
+						<th class="normal pv2 ph3 tc">1st</th>
+						<th class="normal pv2 ph3 tc">2nd</th>
+						<th class="normal pv2 ph3 tc">3rd</th>
+						<th class="br bw1 b--black bg-black white pv2 ph3 tc">T</th>															
+					</tr>
+				</thead>
+				<tbody>
+					<tr class="">
+						<th rowspan="2" class="normal pv2 ph3 tl">{{ .Params.away_team }}</th>
+						<th class="normal pv2 ph3 tl">Goals</th>
+						<td class="normal pv2 ph3 tc">{{ .Params.away_1st_period_score }}</td>
+						<td class="normal pv2 ph3 tc">{{ .Params.away_2nd_period_score }}</td>
+						<td class="normal pv2 ph3 tc">{{ .Params.away_3rd_period_score }}</td>
+						<td class="br bw1 b--black bg-black white bold pv2 ph3 tc">{{ .Params.away_score }}</td>
+					</tr>
+					 <tr class="light-silver bt bw1 b--light-gray">					
+						<th class="normal pv2 ph3 tl">Shots</th>
+						<td class="normal pv2 ph3 tc">{{ .Params.away_1st_period_shots }}</td>
+						<td class="normal pv2 ph3 tc">{{ .Params.away_2nd_period_shots }}</td>
+						<td class="normal pv2 ph3 tc">{{ .Params.away_3rd_period_shots }}</td>
+						<td class="bt bw1 b--black bg-light-gray gray pv2 ph3 tc">{{ .Params.away_total_shots }}</td>
+					</tr>					
+					<tr class="">
+						<th rowspan="2" class="normal pv2 ph3 tl">{{ .Params.home_team }}</th>
+						<th class="normal pv2 ph3 tl">Goals</th>						
+						<td class="normal pv2 ph3 tc">{{ .Params.home_1st_period_score }}</td>
+						<td class="normal pv2 ph3 tc">{{ .Params.home_2nd_period_score }}</td>
+						<td class="normal pv2 ph3 tc">{{ .Params.home_3rd_period_score }}</td>
+						<td class="br bw1 b--black bg-black white bold pv2 ph3 tc">{{ .Params.home_score }}</td>															
+					</tr>
+					<tr class="light-silver bt bw1 b--light-gray">					
+						<th class="normal pv2 ph3 tl">Shots</th>						
+						<td class="normal pv2 ph3 tc">{{ .Params.home_1st_period_shots }}</td>
+						<td class="normal pv2 ph3 tc">{{ .Params.home_2nd_period_shots }}</td>
+						<td class="normal pv2 ph3 tc">{{ .Params.home_3rd_period_shots }}</td>
+						<td class="bt bw1 b--black bg-light-gray gray pv2 ph3 tc">{{ .Params.home_total_shots }}</td>															
+					</tr>					
+				</tbody>
+			</table>
+		</div>		
+		<div class="measure-wide nested-copy-line-height nested-links nested-blockquote nested-img lh-copy serif">
+			{{ .Content }}
+		</div>
+		<div class="measure-wide nested-copy-line-height nested-links nested-blockquote nested-img lh-copy serif">
+			<ul class="list pl0">				
+			{{if .PrevInSection}}<li><a class="link" href="{{.PrevInSection.Permalink}}">Previous Game: {{.PrevInSection.Title}}</a></li>{{end}}
+			{{if .NextInSection}}<li><a class="link" href="{{.NextInSection.RelPermalink}}">Next Game: {{.NextInSection.Title}}</a></li>{{end}}
+			</ul>
+		</div>
+	</article>
+{{ end }}

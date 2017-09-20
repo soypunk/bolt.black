@@ -1,10 +1,10 @@
 {{ define "title" }}
-  {{ .Title }} – {{ .Site.Title }}
+{{ .Title }} – {{ .Site.Title }}
 {{ end }}
 {{ define "main" }}
 	<article class="mb5">
 		<h3 class="mb0 lh-title roboto"><a href="{{ .Permalink }}" class="link black hover-dark-blue underline-hover" rel="bookmark">{{ .Title|title }}</a></h3>
-		<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" class="mt0 f6 gray serif">{{ .Date.Format "January 2, 2006" }}</time>
+		<time datetime="{{ .Date.Format "2006-01-02T15:04:05Z07:00" }}" class="mt0 f6 gray serif">{{ .Date.Format "January 2, 2006" }}</time>		
 		<div class="measure-wide nested-copy-line-height nested-links nested-blockquote nested-img lh-copy serif">
 			{{ .Content }}
 		</div>		
