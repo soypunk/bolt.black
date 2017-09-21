@@ -1,5 +1,5 @@
 ---
-title: "(Preseason) Tampa Bay Lightning vs. Carolina Hurricanes, September 20th
+title: "(Preseason) Tampa Bay Lightning vs. Carolina Hurricanes, September 20th 2017"
 date: 2017-09-20T20:32:36-07:00
 draft: false
 description: ""
