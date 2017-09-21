@@ -29,4 +29,4 @@ game_star_3: "Derek Ryan, CAR, Center"
 
 Mikhail Sergachev's game winner will get a lot of media attention but I think the buried story will be Peter Budaj's mid-season form in the first two periods and Erne's strong play all night including his second goal of the preseason.
 
-A small shoutout to long time Carolina Hurricane's player Erik Cole, who announced his retirement earlier in the evening.
+A small shoutout to long time Carolina Hurricanes player Erik Cole, who announced his retirement earlier in the evening.
