@@ -1,7 +1,7 @@
 ---
 title: "(Preseason) Tampa Bay Lightning vs. Florida Panthers, September 28th 2017"
 date: 2017-09-29T14:59:30-07:00
-draft: true
+draft: false
 description: ""
 featured_image: ""
 away_team: "Tampa Bay Lightning"
