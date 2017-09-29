@@ -26,6 +26,6 @@ game_star_1: "Jared McCann, FLA, Center"
 game_star_2: "James Reimer, FLA, Goalie"
 game_star_3: "Radim Vrbata, FLA Right Wing"
 ---
-Another preseason loss that I won't read too much into. Tampa did a better job of staying out of the box and winning faceoffs which I thought were positives. In addition, the team did a better job of playing consistently for 60 minutes rather than trying to turn it on in the 3rd period alone. 
+Another preseason loss that I won't read too much into. Tampa did a better job of staying out of the box and winning faceoffs which I thought were positives. In addition, the team was better at playing consistently for 60 minutes rather than trying to turn it on in the 3rd period alone. 
 
 Hard to make a solid judgement on 5 preseason games alone, but Mikhail Sergachev appears to be an NHL ready defenseman. He was given a fair amount of ice time (20m~ a game) and saw time on the power-play as well. Have to imagine he's made the team for now.
