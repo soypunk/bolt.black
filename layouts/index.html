@@ -1,7 +1,7 @@
 {{ define "main" }}
 
 
-	{{ $paginator := .Paginate (where .Data.Pages "Section" "in" (slice "posts" "links" "minis")) }}
+	{{ $paginator := .Paginate (where .Data.Pages "Section" "in" (slice "stories" "links")) }}
 
 	{{ range $paginator.Pages.GroupByDate "Monday, 2 January 2006" }}
 		{{ $page := index .Pages 0 }}{{/* Each group has at least 1 page */}}

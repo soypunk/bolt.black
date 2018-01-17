@@ -22,7 +22,7 @@ DefaultContentLanguage = "en"
 	env = "TEST"
 	description = "A column covering the Tampa Bay Lightning"
 	twitter = "https://twitter.com/BoltBlackSite"
-	mainSections = "stories, recaps, players, links"
+	mainSections = "stories, players, links"
 
 [taxonomies]
 	tag = "tags"
